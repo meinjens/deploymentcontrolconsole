@@ -1,0 +1,16 @@
+plugins {
+    id "com.linkedin.python-sdist" version "0.3.36"
+}
+
+dependencies {
+    python 'pypi:requests:2.9.1'
+    python 'pypi:Flask:0.11.1'
+    test 'pypi:mock:1.3.0'
+}
+
+repositories {
+    pyGradlePyPi()
+}
+
+group 'meinjens.deploymentcontrolconsole'
+version '1.0-SNAPSHOT'
