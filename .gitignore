@@ -90,3 +90,7 @@ ENV/
 
 # Idea files
 /.idea
+*.iml
+
+# Virtual env links
+/activate
