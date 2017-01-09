@@ -6,10 +6,14 @@ Console to control deployments
 
 Launch test tool:
 
+~~~
+    cd test
     sudo python console_test.py
+~~~
     
 Configuration of GPIOs in controls dict:
 
+~~~
     controls = {
         'Power-LED': ({
             'switch': 0,
@@ -18,6 +22,7 @@ Configuration of GPIOs in controls dict:
             'state': 0
         })
     }
+~~~
 
 |Key|Description|    
 |---|---|

@@ -1,5 +1,4 @@
-from flask import Flask, url_for, request, render_template
-from app import app
+from src.launchcontrolpi.app import app
 
 
 @app.route('/', methods=['GET'])
