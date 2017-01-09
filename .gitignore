@@ -94,3 +94,5 @@ ENV/
 
 # Virtual env links
 /activate
+
+/.gradle
